@@ -141,7 +141,7 @@ const ALLOWED_TAGS = [
 const ALLOWED_ATTR: Record<string, string[]> = {
   '*': ['id'], // Allow id on all tags
   'a': ['href', 'title', 'target', 'rel'],
-  'img': ['src', 'alt', 'title', 'width', 'height', 'align'],
+  'img': ['src', 'alt', 'title', 'width', 'height', 'align', 'float'],
   'source': ['src', 'srcset', 'type', 'media'],
   'button': ['class', 'title', 'type', 'aria-label', 'data-copy'],
   'th': ['colspan', 'rowspan', 'align'],
